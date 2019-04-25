@@ -8,3 +8,11 @@ Tech included:
 - RStudio
 - Shiny server
 - Jupyter notebook
+
+The machine this container is running should have git, make, and docker installed.
+
+Example command on how to run container:
+
+```
+RSTUDIO_PASSWORD=pizza make run
+```
